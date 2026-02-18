@@ -250,17 +250,15 @@ section {
   color: rgba(250, 245, 239, 0.9);
 }
 
-.hero-title {
-  font-family: var(--font-heading);
-  font-size: clamp(2.8rem, 8vw, 6.5rem);
-  font-weight: 900;
-  color: var(--color-text-light);
-  line-height: 1;
-  margin-bottom: 12px;
+.hero-logo {
+  margin-bottom: 24px;
 }
 
-.hero-title .accent {
-  color: var(--color-primary-light);
+.hero-logo img {
+  max-width: min(560px, 90vw);
+  height: auto;
+  margin-inline: auto;
+  filter: drop-shadow(0 8px 32px rgba(0, 0, 0, 0.45));
 }
 
 .hero-subtitle {
