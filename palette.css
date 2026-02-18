@@ -28,8 +28,8 @@
   --color-border-strong:#C4A882;   /* Более насыщенный — акцентные рамки */
 
   /* --- Типография --- */
-  --font-heading:       'Playfair Display', Georgia, serif;
-  --font-body:          'Inter', 'Segoe UI', Arial, sans-serif;
+  --font-heading:       'Montserrat', 'Segoe UI', Arial, sans-serif;
+  --font-body:          'Nunito', 'Segoe UI', Arial, sans-serif;
 
   /* --- Скругления --- */
   --radius-sm:          6px;
